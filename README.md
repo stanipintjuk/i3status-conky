@@ -7,12 +7,11 @@ i3 status using Conky
 
 **Add** this to your **bar** block in your i3 config file:
 
-`
+```
 bar {
-	position top
     status_command $i3dir/i3status-conky/i3status.sh
  
-`
+```
 
 Most Debian/Ubuntu users should open the *conkystatus* file, scroll down to **Networking** section and read the comment.
 
